@@ -1,0 +1,39 @@
+.header{
+    background-color: #fff;
+    box-shadow: 0px 0px 26px 4px #0043ff57;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .header-content{
+        margin: 0px auto;
+        padding-top: 0.5em;
+        padding-bottom: 0.2em;
+        justify-content: space-between;
+        .header-content--left{
+            .logo-img{
+                width: 80%;
+            }
+        }
+        .header-content--right{
+            padding-top: 0.3em;
+            width: 8.3%;
+            justify-content: space-between;
+            h3{
+                padding-top: 0.5em;
+                a{
+                    color:#6363ff;
+                    transition: all 0.6s ease-in-out;
+                }
+                a:hover{
+                    color: #57d985;
+                }
+            }
+            .user{
+                font-size: 2.2em;
+            }
+            .down{
+                font-size: 1.6em;
+            }
+        }
+    }
+}
