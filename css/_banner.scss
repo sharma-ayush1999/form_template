@@ -5,17 +5,18 @@
         text-align: center;
         a{
             color: #fff;
+            transition: all 0.6s ease-in-out;
+            font-family: 'Baloo Tamma 2', cursive;
         }
         .banner-content{
             padding-top: 3em;
-            padding-bottom: 3em;
+            padding-bottom: 3.5em;
             padding-left: 1em;
             padding-right: 1em;
-            transition: all 0.6s ease-in-out;
-            
+            transition: all 0.6s ease-in-out;      
         }
         .banner-content:hover{
-            box-shadow: 0px 5px 15px 2px black;
+            box-shadow: 0px 2px 14px 3px rgb(59, 55, 55);
         }
         .banner-content:nth-of-type(1){
             background-color: #5b5bff;
@@ -39,5 +40,84 @@
     }
     .banner-middle{
         width: 80%;
+        padding: 2em;
+        padding-top: 2em;
+        padding-bottom: 0em;
+        .bm-heading1{
+            padding-left: 3em;
+            padding-top: 0.3em;
+            h2{
+            color: #000;
+            font-weight: 800;
+            font-size: 2.5em;
+            font-family: 'Rubik', sans-serif;
+            padding-bottom: 0.2em;
+            }
+            .h2-border{
+                width: 16%;
+                top: 3.7em;
+                height: 3px;
+                background-color: #6c74ff;
+            }
+        }
+        .banner-middle--content{
+            margin: 0px auto;
+            background-color: #c8c8c83b;
+            border-radius: 5px;
+            margin-top: 2em;
+            .bm-heading2{
+                padding-left: 3.3em;
+                padding-top: 2em;
+                h3{
+                    font-size: 1em;
+                    font-weight: 100;
+                }
+                i{
+                    font-size: 0.5em;
+                    color: crimson;
+                }
+            }
+            .form{
+                width: 90%;
+                margin: 0px auto;
+                padding-top: 0.2em;
+                padding-bottom: 3em;
+                .myForm{
+                    padding: 2em;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    padding-bottom: 1em;
+                    .form-content{
+                        padding: 1em;
+                        h4{
+                            font-size: 0.9em;
+                            font-weight: 500;
+                        }
+                        i{
+                            font-size: 0.5em;
+                            color: crimson;
+                        }
+                        input{
+                            padding: 0.6em;
+                            padding-right: 18em;
+                            border-radius: 5px;
+                            border: 1px solid #8dabc4;
+                        }
+                            #photo{
+                                padding-right: 11em;
+                            }
+                    }
+                    .form-btn{
+                        margin: 0px auto;
+                        width: 15%;
+                        button{
+                            padding: 0.5em;
+                            padding-left: 1em;
+                            padding-right: 1em;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
