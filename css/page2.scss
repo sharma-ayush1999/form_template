@@ -1,0 +1,72 @@
+.banner2-middle{
+    width: 100%;
+    background-color: #f1f1f1;
+    .ban2-data{
+        padding: 3em;
+        padding-top: 15em;
+        .ban2-heading{
+            padding-bottom: 1em;
+            justify-content: space-between;
+            .h2-border{
+                z-index: 2;
+                width: 4%;
+                top: 20.7em;
+                left: 11.8%;
+                height: 3px;
+                background-color: #6c74ff;
+            }
+            button{
+                width: 14%;
+                font-size: 1em;
+                padding: 0.5em;
+                transition: all 0.6s ease-in-out;
+            }
+            button:hover{
+                background-color: rgb(25, 204, 25);
+            }
+        }
+        .banner2-middle--data{
+            background-color: #fff;
+            padding: 1.5em;
+            justify-content: space-between;
+            border-radius: 5px;
+            border: 2px solid #6586ff7a;
+            .banner2-content{
+                width: 9.7%;
+                text-align: center;
+                background-color: #f1f1f1a6;
+                h4{
+                    font-weight: 100;
+                    background-color:#3b72ff;
+                    padding: 0.4em;
+                    color: #fff;
+                    font-size: 0.9em;
+                }
+                h3{
+                    padding: 0.3em;
+                    padding-top: 0.4em;
+                    padding-bottom: 0.4em;
+                    font-size: 1em;
+                    overflow-x: auto;
+                }
+                .ban-img{
+                    width: 82%;
+                    padding-top: 0.4em;
+                    padding-bottom: 0.4em;
+                
+                }
+                button{
+                    font-size: 0.9em;
+                    margin-top: 0.4em;
+                    letter-spacing: 0px;
+                    transition: all 0.6s ease-in-out;
+                }
+                button:hover{
+                    background-color: rgb(25, 204, 25);
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,88 @@
+.banner2-middle {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.banner2-middle .ban2-data {
+  padding: 3em;
+  padding-top: 15em;
+}
+
+.banner2-middle .ban2-data .ban2-heading {
+  padding-bottom: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner2-middle .ban2-data .ban2-heading .h2-border {
+  z-index: 2;
+  width: 4%;
+  top: 20.7em;
+  left: 11.8%;
+  height: 3px;
+  background-color: #6c74ff;
+}
+
+.banner2-middle .ban2-data .ban2-heading button {
+  width: 14%;
+  font-size: 1em;
+  padding: 0.5em;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.banner2-middle .ban2-data .ban2-heading button:hover {
+  background-color: #19cc19;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data {
+  background-color: #fff;
+  padding: 1.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+  border: 2px solid #6586ff7a;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content {
+  width: 9.7%;
+  text-align: center;
+  background-color: #f1f1f1a6;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content h4 {
+  font-weight: 100;
+  background-color: #3b72ff;
+  padding: 0.4em;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content h3 {
+  padding: 0.3em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-size: 1em;
+  overflow-x: auto;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content .ban-img {
+  width: 82%;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content button {
+  font-size: 0.9em;
+  margin-top: 0.4em;
+  letter-spacing: 0px;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.banner2-middle .ban2-data .banner2-middle--data .banner2-content button:hover {
+  background-color: #19cc19;
+}
+/*# sourceMappingURL=page2.css.map */
